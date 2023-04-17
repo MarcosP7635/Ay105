@@ -699,11 +699,452 @@ Carlos is inserting the filters into the filter wheel. Tanmay is going between t
 \end{itemize}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{82}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{all\PYZus{}data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{week1\PYZus{}data.csv}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\PY{n}{all\PYZus{}data}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{82}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+                                           Unnamed: 0  \textbackslash{}
+0                                  Front Filter Wheel
+1                                   Back Filter Wheel
+2                                                 NaN
+3                                                   ﻿
+4                                                 NaN
+5                                                 NaN
+6                                                 NaN
+7                                                 NaN
+8                                                 NaN
+9                                                 NaN
+10                                                NaN
+11                                                NaN
+12                                                NaN
+13                                                NaN
+14                                                NaN
+15                                                NaN
+16                                                NaN
+17                                                NaN
+18                                                NaN
+19                                                NaN
+20                                                NaN
+21                                                NaN
+22                                                NaN
+23                                                NaN
+24                                                NaN
+25                                                NaN
+26                                                NaN
+27                                                NaN
+28                                                NaN
+29                                                NaN
+30                                                NaN
+31                                                NaN
+32                                                NaN
+33                                                NaN
+34                                                NaN
+35                                        Front wheel
+36                                                NaN
+37                                                NaN
+38                                                NaN
+39                                                NaN
+40                                                NaN
+41                                                NaN
+42                                                NaN
+43                                                NaN
+44  using 750 nm filter for part B measurements fo{\ldots}
+45                                                NaN
+46                                                NaN
+47                                                NaN
+48                                                NaN
+49                                                NaN
+50                                                NaN
+51                                                NaN
+52                                                NaN
+53                                                NaN
+54                                                NaN
+55                                                NaN
+56                                                NaN
+57                                                NaN
+58  beam maybe not centered in the direction paral{\ldots}
+
+                                   Position  \textbackslash{}
+0                                λ (±10 nm)
+1                                λ (±10 nm)
+2                                       NaN
+3                                       NaN
+4                                       NaN
+5                                λ (±10 nm)
+6                                       850
+7                                       900
+8                                      1000
+9                                      1100
+10                                     1200
+11                                     1300
+12                                     1400
+13                                     1500
+14  1550 (moved saturation limit to 50.0μA)
+15                                     1600
+16                                      NaN
+17                                      NaN
+18                                        ﻿
+19                                      NaN
+20                  Micrometer (in) Reading
+21                                        0
+22                                    0.025
+23                                     0.05
+24                                    0.075
+25                                      0.1
+26                                    0.125
+27                                     0.15
+28                                    0.175
+29                                      0.2
+30                                    0.225
+31                                     0.25
+32                                      NaN
+33                                      NaN
+34                                 Position
+35                        Filter λ (±10 nm)
+36                                        ﻿
+37                                      NaN
+38                               λ (±10 nm)
+39                                      400
+40                                      550
+41                                      650
+42                                      750
+43                                      NaN
+44                                      NaN
+45                                    Angle
+46                                     -60°
+47                                     -45°
+48                                     -30°
+49                                    - 15°
+50                                       0°
+51                                      15°
+52                                      30°
+53                                      45°
+54                                      60°
+55                                      75°
+56                                      90°
+57                                      NaN
+58                                      NaN
+
+                                                  2  \textbackslash{}
+0                                               850
+1                                              1300
+2                                               NaN
+3                                               NaN
+4                                               NaN
+5              last decimal Max Current (± l.d. μA)
+6                                             0.469
+7                                              0.61
+8                                             0.761
+9   0.701 (didn't change response, initially 0.695)
+10                                            1.189
+11   2.142 (flipped wheel, originally wheel 2.137 )
+12                                            2.363
+13                                             6.94
+14                                            10.19
+15                                             5.91
+16                                              NaN
+17                                              NaN
+18                                                ﻿
+19                                              NaN
+20                            Current (± 0.001, μA)
+21                                            2.363
+22                                            2.368
+23                                            2.372
+24                                            2.376
+25                                            2.379
+26                                            2.382
+27                                            2.386
+28                                            2.389
+29                                            2.392
+30                                            2.395
+31                                            2.396
+32                                              NaN
+33                                              NaN
+34                                                2
+35                                              400
+36                                                ﻿
+37                                              NaN
+38                  Max Current (± last decimal μA)
+39                                            0.145
+40                                            1.768
+41                                      3.410±0.003
+42                                            5.189
+43                                              NaN
+44                                              NaN
+45                      Current (± last decimal μA)
+46                                             0.65
+47                                             2.12
+48                                             3.72
+49                                             5.05
+50                                             5.74
+51                                             5.41
+52                                             4.32
+53                                             2.48
+54                                             0.96
+55                                             0.27
+56                                             0.11
+57                                              NaN
+58                                              NaN
+
+                                               3         4       5       6
+0                                            900      1000  1100.0  1200.0
+1                                           1400      1500  1550.0  1600.0
+2                                            NaN       NaN     NaN     NaN
+3                                            NaN       NaN     NaN     NaN
+4                                            NaN       NaN     NaN     NaN
+5                                        Trial 2   Trial 3     NaN     NaN
+6                                          0.462     0.465     NaN     NaN
+7                                          0.612     0.635     NaN     NaN
+8   0.810 (blew on air filter, originally 0.822)     0.829     NaN     NaN
+9                                          0.687     0.682     NaN     NaN
+10                                 1.165 (start)      1.16     NaN     NaN
+11                                          2.14     2.086     NaN     NaN
+12                                         2.374     2.293     NaN     NaN
+13                                          6.94      6.93     NaN     NaN
+14                                         10.14     10.23     NaN     NaN
+15                 5.88 (flipped back to 850 nm)      5.97     NaN     NaN
+16                                           NaN       NaN     NaN     NaN
+17                                           NaN       NaN     NaN     NaN
+18                                             ﻿         ﻿     NaN     NaN
+19                                           NaN       NaN     NaN     NaN
+20                                       Trial 2  Trial 3      NaN     NaN
+21                                          2.36     2.363     NaN     NaN
+22                                         2.363     2.367     NaN     NaN
+23                                         2.366     2.369     NaN     NaN
+24                                         2.368     2.372     NaN     NaN
+25                                         2.371     2.375     NaN     NaN
+26                                         2.373     2.377     NaN     NaN
+27                                         2.375     2.379     NaN     NaN
+28                                         2.377     2.382     NaN     NaN
+29                                          2.38     2.385     NaN     NaN
+30                                         2.383     2.388     NaN     NaN
+31                                         2.386     2.391     NaN     NaN
+32                                           NaN       NaN     NaN     NaN
+33                                           NaN       NaN     NaN     NaN
+34                                             3         4     5.0     NaN
+35                                           550       650   750.0     NaN
+36                                           NaN       NaN     NaN     NaN
+37                                           NaN       NaN     NaN     NaN
+38                                       Trial 2   Trial 3     NaN     NaN
+39                                         0.148     0.145     NaN     NaN
+40                                          1.79     1.779     NaN     NaN
+41                                          3.44     3.442     NaN     NaN
+42                                         5.226     5.231     NaN     NaN
+43                                           NaN       NaN     NaN     NaN
+44                                             ﻿         ﻿     NaN     NaN
+45                                       Trial 2  Trial 3      NaN     NaN
+46                                          0.66      0.68     NaN     NaN
+47                                          2.03      2.03     NaN     NaN
+48                                          3.72      3.73     NaN     NaN
+49                                          5.07      5.11     NaN     NaN
+50                                          5.77      5.76     NaN     NaN
+51                                          5.37      5.31     NaN     NaN
+52                                          4.34      4.26     NaN     NaN
+53                                          2.51      2.59     NaN     NaN
+54                                          0.99      0.96     NaN     NaN
+55                                          0.25      0.26     NaN     NaN
+56                                          0.11      0.11     NaN     NaN
+57                                           NaN       NaN     NaN     NaN
+58                                           NaN       NaN     NaN     NaN
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{77}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{def} \PY{n+nf}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}\PY{p}{:}
+    \PY{n}{sub\PYZus{}array} \PY{o}{=} \PY{n}{all\PYZus{}data}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{rows}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{:}\PY{n}{rows}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{:}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{]}
+    \PY{n}{sub\PYZus{}array}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{n}{x} \PY{k}{for} \PY{n}{x} \PY{o+ow}{in} \PY{n}{all\PYZus{}data}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{rows}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{:}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{]}\PY{p}{]}
+    \PY{k}{return} \PY{n}{sub\PYZus{}array}\PY{o}{.}\PY{n}{set\PYZus{}index}\PY{p}{(}\PY{n}{sub\PYZus{}array}\PY{o}{.}\PY{n}{columns}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+\PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
+\PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}
+\PY{n}{IR\PYZus{}data} \PY{o}{=} \PY{n}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}
+\PY{n}{IR\PYZus{}data}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{77}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+                                                    last decimal Max Current (±
+l.d. μA)  \textbackslash{}
+λ (±10 nm)
+850
+0.469
+900
+0.61
+1000
+0.761
+1100                                     0.701 (didn't change response,
+initially 0.695)
+1200
+1.189
+1300                                      2.142 (flipped wheel, originally wheel
+2.137 )
+1400
+2.363
+1500
+6.94
+1550 (moved saturation limit to 50.0μA)
+10.19
+1600
+5.91
+
+Trial 2  \textbackslash{}
+λ (±10 nm)
+850
+0.462
+900
+0.612
+1000                                     0.810 (blew on air filter, originally
+0.822)
+1100
+0.687
+1200                                                                    1.165
+(start)
+1300
+2.14
+1400
+2.374
+1500
+6.94
+1550 (moved saturation limit to 50.0μA)
+10.14
+1600                                                    5.88 (flipped back to
+850 nm)
+
+                                        Trial 3
+λ (±10 nm)
+850                                       0.465
+900                                       0.635
+1000                                      0.829
+1100                                      0.682
+1200                                       1.16
+1300                                      2.086
+1400                                      2.293
+1500                                       6.93
+1550 (moved saturation limit to 50.0μA)   10.23
+1600                                       5.97
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{80}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
+\PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{38}\PY{p}{,}\PY{l+m+mi}{42}\PY{p}{)}
+\PY{n}{visible\PYZus{}data} \PY{o}{=} \PY{n}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}
+\PY{n}{visible\PYZus{}data}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{80}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+           Max Current (± last decimal μA) Trial 2 Trial 3
+λ (±10 nm)
+400                                  0.145   0.148   0.145
+550                                  1.768    1.79   1.779
+650                            3.410±0.003    3.44   3.442
+750                                  5.189   5.226   5.231
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
+\PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{38}\PY{p}{,}\PY{l+m+mi}{42}\PY{p}{)}
+\PY{n}{visible\PYZus{}data} \PY{o}{=} \PY{n}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}
+\PY{n}{visible\PYZus{}data}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{84}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
+\PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{45}\PY{p}{,}\PY{l+m+mi}{56}\PY{p}{)}
+\PY{n}{angular\PYZus{}data} \PY{o}{=} \PY{n}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}
+\PY{n}{angular\PYZus{}data}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{84}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+      Current (± last decimal μA) Trial 2 Trial 3
+Angle
+-60°                         0.65    0.66     0.68
+-45°                         2.12    2.03     2.03
+-30°                         3.72    3.72     3.73
+- 15°                        5.05    5.07     5.11
+0°                           5.74    5.77     5.76
+15°                          5.41    5.37     5.31
+30°                          4.32    4.34     4.26
+45°                          2.48    2.51     2.59
+60°                          0.96    0.99     0.96
+75°                          0.27    0.25     0.26
+90°                          0.11    0.11     0.11
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{20}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{o}{!}dir
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is AEBB-19C7
+
+ Directory of C:\textbackslash{}Users\textbackslash{}marco\textbackslash{}Documents\textbackslash{}GitHub\textbackslash{}Ay105
+
+04/17/2023  03:55 PM    <DIR>          .
+04/11/2023  04:06 AM    <DIR>          ..
+04/10/2023  08:58 PM                66 .gitattributes
+04/10/2023  10:22 PM    <DIR>          .ipynb\_checkpoints
+04/11/2023  12:26 PM           311,818 1000 K ideal blackbody.png
+04/17/2023  03:50 PM         4,137,872 1000blackbody\_plot.html
+04/11/2023  12:26 PM           281,431 300 K ideal blackbody.png
+04/11/2023  12:29 PM           300,102 3000 K ideal blackbody.png
+04/17/2023  03:50 PM         4,137,467 3000blackbody\_plot.html
+04/17/2023  03:50 PM         4,137,987 300blackbody\_plot.html
+04/11/2023  12:30 PM           322,457 5000 K ideal blackbody.png
+04/17/2023  03:50 PM         4,140,220 5000blackbody\_plot.html
+04/17/2023  03:40 PM           109,371 Ay105Lab Data.xlsx
+04/17/2023  03:55 PM         1,648,229 Lab1.ipynb
+04/13/2023  11:11 PM            43,420 Lab1.tex
+04/13/2023  11:11 PM    <DIR>          Lab1\_files
+04/17/2023  03:48 PM             1,890 week1\_data.csv.csv
+              13 File(s)     19,572,330 bytes
+               4 Dir(s)  869,149,937,664 bytes free
+    \end{Verbatim}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{o}{!}jupyter nbconvert \PYZhy{}\PYZhy{}to latex Lab1.ipynb
 \end{Verbatim}
 \end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+[NbConvertApp] Converting notebook Lab1.ipynb to latex
+[NbConvertApp] Support files will be in Lab1\_files\textbackslash{}
+[NbConvertApp] Making directory Lab1\_files
+[NbConvertApp] Making directory Lab1\_files
+[NbConvertApp] Making directory Lab1\_files
+[NbConvertApp] Making directory Lab1\_files
+[NbConvertApp] Writing 42700 bytes to Lab1.tex
+    \end{Verbatim}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{ }{\boxspacing}
