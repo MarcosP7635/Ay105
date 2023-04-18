@@ -389,7 +389,7 @@
 
     
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{1}{\boxspacing}
+\prompt{In}{incolor}{16}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}\PY{p}{;}
 \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -428,7 +428,7 @@
 \end{tcolorbox}
  
             
-\prompt{Out}{outcolor}{1}{}
+\prompt{Out}{outcolor}{16}{}
     
     $\displaystyle \hbar$
 
@@ -438,7 +438,7 @@
 Planck's law of Blackbody Radiation. We will be using CGS units.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{2}{\boxspacing}
+\prompt{In}{incolor}{17}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k}{def} \PY{n+nf}{B}\PY{p}{(}\PY{n}{T}\PY{p}{,} \PY{n}{l}\PY{p}{,} \PY{n}{number} \PY{o}{=} \PY{k+kc}{False}\PY{p}{,} \PY{n}{dps}\PY{o}{=}\PY{l+m+mi}{50}\PY{p}{)}\PY{p}{:}
     \PY{k}{if} \PY{n}{number}\PY{p}{:}
@@ -459,7 +459,7 @@ Planck's law of Blackbody Radiation. We will be using CGS units.
 \end{tcolorbox}
  
             
-\prompt{Out}{outcolor}{2}{}
+\prompt{Out}{outcolor}{17}{}
     
     We have the Planck Blackbody
 Law\begin{equation} B_l = \frac{2 h v^{3}}{c^{2} \left(e^{\frac{h v}{T k_{B}}} - 1\right)}\end{equation}
@@ -467,7 +467,14 @@ Law\begin{equation} B_l = \frac{2 h v^{3}}{c^{2} \left(e^{\frac{h v}{T k_{B}}} -
     
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{3}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{18}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k+kn}{from} \PY{n+nn}{sympy}\PY{n+nn}{.}\PY{n+nn}{plotting} \PY{k+kn}{import} \PY{n}{plot}
 \PY{k}{def} \PY{n+nf}{plot\PYZus{}planck}\PY{p}{(}\PY{n}{T}\PY{p}{)}\PY{p}{:}
@@ -497,34 +504,14 @@ Law\begin{equation} B_l = \frac{2 h v^{3}}{c^{2} \left(e^{\frac{h v}{T k_{B}}} -
 \end{tcolorbox}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{4}{\boxspacing}
+\prompt{In}{incolor}{19}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}planck}\PY{p}{(}\PY{l+m+mi}{300}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{4}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-<module 'matplotlib.pyplot' from 'C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}marco\textbackslash{}\textbackslash{}anaconda3\textbackslash{}\textbackslash{}lib\textbackslash{}\textbackslash{}site-
-packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash{}pyplot.py'>
-\end{Verbatim}
-\end{tcolorbox}
-        
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{Lab1_files/Lab1_4_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{5}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-\PY{n}{plot\PYZus{}planck}\PY{p}{(}\PY{l+m+mi}{1000}\PY{p}{)}
-\end{Verbatim}
-\end{tcolorbox}
-
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{5}{\boxspacing}
+\prompt{Out}{outcolor}{19}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 <module 'matplotlib.pyplot' from 'C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}marco\textbackslash{}\textbackslash{}anaconda3\textbackslash{}\textbackslash{}lib\textbackslash{}\textbackslash{}site-
 packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash{}pyplot.py'>
@@ -537,47 +524,36 @@ packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash
     { \hspace*{\fill} \\}
     
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{6}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{plot\PYZus{}planck}\PY{p}{(}\PY{l+m+mi}{1000}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+<module 'matplotlib.pyplot' from 'C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}marco\textbackslash{}\textbackslash{}anaconda3\textbackslash{}\textbackslash{}lib\textbackslash{}\textbackslash{}site-
+packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash{}pyplot.py'>
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}planck}\PY{p}{(}\PY{l+m+mi}{3000}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{6}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-<module 'matplotlib.pyplot' from 'C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}marco\textbackslash{}\textbackslash{}anaconda3\textbackslash{}\textbackslash{}lib\textbackslash{}\textbackslash{}site-
-packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash{}pyplot.py'>
-\end{Verbatim}
-\end{tcolorbox}
-        
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{Lab1_files/Lab1_6_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{7}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}planck}\PY{p}{(}\PY{l+m+mi}{5000}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{7}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-<module 'matplotlib.pyplot' from 'C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}marco\textbackslash{}\textbackslash{}anaconda3\textbackslash{}\textbackslash{}lib\textbackslash{}\textbackslash{}site-
-packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash{}pyplot.py'>
-\end{Verbatim}
-\end{tcolorbox}
-        
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{Lab1_files/Lab1_7_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{8}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{temp\PYZus{}list} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{300}\PY{p}{,} \PY{l+m+mi}{1000}\PY{p}{,} \PY{l+m+mi}{3000}\PY{p}{,} \PY{l+m+mi}{5000}\PY{p}{]}
 \PY{k}{for} \PY{n}{T} \PY{o+ow}{in} \PY{n}{temp\PYZus{}list}\PY{p}{:}
@@ -585,17 +561,6 @@ packages\textbackslash{}\textbackslash{}matplotlib\textbackslash{}\textbackslash
     \PY{n+nb}{print}\PY{p}{(}\PY{n}{mpmath}\PY{o}{.}\PY{n}{log10}\PY{p}{(}\PY{n}{peak}\PY{p}{)}\PY{p}{,} \PY{n}{mpmath}\PY{o}{.}\PY{n}{log10}\PY{p}{(}\PY{n}{B}\PY{p}{(}\PY{n}{T}\PY{p}{,} \PY{n}{peak}\PY{p}{,} \PY{k+kc}{True}\PY{p}{)}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
--4.9999999999999999644733850823019973008295631257525
--11.480132488738328539155182878367842691858105964728
--5.5228787452803375517024728445662672420376910518749
--9.9114962528973159081789007475600640111092417400786
--6.0000000000000000196526453297206160616919506824173
--8.4801324887383286630048454686219256681457103788396
--6.2218487496163563871438785317410077257236319367645
--7.8145862398892592686797972725455481807151190300996
-    \end{Verbatim}
 
     \section{Aprill 11, 2023}
 
@@ -705,7 +670,7 @@ The function make\_numeric returns a plottable version a given
 dataframe.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{158}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k}{def} \PY{n+nf}{make\PYZus{}data\PYZus{}array}\PY{p}{(}\PY{n}{all\PYZus{}data}\PY{p}{,} \PY{n}{cols}\PY{p}{,} \PY{n}{rows}\PY{p}{)}\PY{p}{:}
     \PY{n}{sub\PYZus{}array} \PY{o}{=} \PY{n}{all\PYZus{}data}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{rows}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{:}\PY{n}{rows}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{,}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{:}\PY{n}{cols}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{]}
@@ -735,7 +700,7 @@ dataframe.
 \end{tcolorbox}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{157}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
 \PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}
@@ -744,26 +709,8 @@ dataframe.
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{157}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-           last decimal Max Current (± l.d. μA) Trial 2 Trial 3
-λ (±10 nm)
-850                                       0.469   0.462   0.465
-900                                        0.61   0.612   0.635
-1000                                      0.761   0.810   0.829
-1100                                      0.701   0.687   0.682
-1200                                      1.189   1.165    1.16
-1300                                      2.142    2.14   2.086
-1400                                      2.363   2.374   2.293
-1500                                       6.94    6.94    6.93
-1550                                      10.19   10.14   10.23
-1600                                       5.91    5.88    5.97
-\end{Verbatim}
-\end{tcolorbox}
-        
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{87}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
 \PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{38}\PY{p}{,}\PY{l+m+mi}{42}\PY{p}{)}
@@ -772,20 +719,8 @@ dataframe.
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{87}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-           Max Current (± last decimal μA) Trial 2 Trial 3
-λ (±10 nm)
-400                                  0.145   0.148   0.145
-550                                  1.768    1.79   1.779
-650                            3.410±0.003    3.44   3.442
-750                                  5.189   5.226   5.231
-\end{Verbatim}
-\end{tcolorbox}
-        
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{156}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
 \PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{38}\PY{p}{,}\PY{l+m+mi}{42}\PY{p}{)}
@@ -794,20 +729,8 @@ dataframe.
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{156}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-           Max Current (± last decimal μA) Trial 2 Trial 3
-λ (±10 nm)
-400                                  0.145   0.148   0.145
-550                                  1.768    1.79   1.779
-650                                  3.410    3.44   3.442
-750                                  5.189   5.226   5.231
-\end{Verbatim}
-\end{tcolorbox}
-        
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{159}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{cols} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{o}{\PYZhy{}}\PY{l+m+mi}{2}\PY{p}{)}
 \PY{n}{rows} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{45}\PY{p}{,}\PY{l+m+mi}{56}\PY{p}{)}
@@ -816,41 +739,12 @@ dataframe.
 \end{Verbatim}
 \end{tcolorbox}
 
-            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
-\prompt{Out}{outcolor}{159}{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-                Current (± last decimal μA) Trial 2 Trial 3
-Angle (degrees)
--60                                    0.65    0.66     0.68
--45                                    2.12    2.03     2.03
--30                                    3.72    3.72     3.73
--15                                    5.05    5.07     5.11
-0                                      5.74    5.77     5.76
-15                                     5.41    5.37     5.31
-30                                     4.32    4.34     4.26
-45                                     2.48    2.51     2.59
-60                                     0.96    0.99     0.96
-75                                     0.27    0.25     0.26
-90                                     0.11    0.11     0.11
-\end{Verbatim}
-\end{tcolorbox}
-        
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{94}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{o}{!}jupyter nbconvert \PYZhy{}\PYZhy{}to latex Lab1.ipynb
 \end{Verbatim}
 \end{tcolorbox}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-[NbConvertApp] Converting notebook Lab1.ipynb to latex
-[NbConvertApp] Support files will be in Lab1\_files\textbackslash{}
-[NbConvertApp] Making directory Lab1\_files
-[NbConvertApp] Making directory Lab1\_files
-[NbConvertApp] Making directory Lab1\_files
-[NbConvertApp] Making directory Lab1\_files
-[NbConvertApp] Writing 50243 bytes to Lab1.tex
-    \end{Verbatim}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{ }{\boxspacing}
