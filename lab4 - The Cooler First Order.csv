@@ -1,6 +1,6 @@
 Slit Width Microns,Separation Between Each Line (mm) on Screen,Rotational Stage Reading When Blazed,Rotational stage reading when the diffraction grating is normal to the beam,Brighter Further Line Separation From Incoming Beam,Dimmer Closer Line Separation From Incoming Beam
-15,5 mm \pm .5 mm,97 degrees 55 arcminutes \pm 5 arcminutes,95 degrees 35 arcminutes \pm 5 arcminutes,74 \pm .7 mm, 64 \pm .7 mm
-19.5,5 cm \pm 0.5 mm,98 degrees 10 arcminutes,95 degrees 25 arcminutes \pm 5 arcminutes,75.5 mm \pm 0.7mm,70.0 mm \pm 0.7 mm
+15 \pm .5,5 mm \pm .5 mm,97 degrees 55 arcminutes \pm 5 arcminutes,95 degrees 35 arcminutes \pm 5 arcminutes,74 \pm .7 mm, 64 \pm .7 mm
+19.5 \pm .5,5 cm \pm 0.5 mm,98 degrees 10 arcminutes \pm 5 arcminutes,95 degrees 25 arcminutes \pm 5 arcminutes,75.5 mm \pm 0.7 mm,70.0 mm \pm 0.7 mm
 8 \pm 0.5,Not Recorded,97 degrees and 50 arcminutes \pm 5 arcminutes,96 degrees and 5 arcminutes \pm 5 arcminutes,86.0 mm \pm 0.7 mm,76.5 mm \pm 0.7 mm
 ,,,,,
 distance from diffraction grating to red line on our piece of paper 97.5 \pm 0.7 mm,,,,,
