@@ -1,0 +1,118 @@
+Z6 = 1
+Shack Hartman Amplitude RMS = .401 +/- .01 um 
+Wavefront Generator RMS = .411  +/- .01 um 
+Shack Hartman Amplitude PV = .6 +/- .01 um 
+Wavefront Generator PV = 1.883 +.001 um
+Peak intensity = 237
+
+
+Z6 = -1
+Shack Hartman Amplitude RMS = .415 +/- .01 um 
+Wavefront Generator RMS = .411  +/- .01 um 
+Shack Hartman Amplitude PV = .6 +/- .01 um 
+Wavefront Generator PV = 1.883 +.001 um
+Peak intensity = 236
+
+Z7 = 1
+Shack Hartman Amplitude RMS = .642 +/- .01 um 
+Wavefront Generator RMS = 1.036  +/- .01 um 
+Shack Hartman Amplitude PV = 1.891 +/- .01 um 
+Wavefront Generator PV = 3.543 +.001 um
+Peak intensity = 235
+
+Z7 = -1
+Shack Hartman Amplitude RMS = .652 +/- .01 um 
+Wavefront Generator RMS = 1.036  +/- .01 um 
+Shack Hartman Amplitude PV = 1.805 +/- .01 um 
+Wavefront Generator PV = 3.543 +.001 um
+Peak intensity = 238
+
+Z8 = 1
+Shack Hartman Amplitude RMS = .651 +/- .01 um 
+Wavefront Generator RMS = 1.053  +/- .01 um 
+Shack Hartman Amplitude PV = 1.727 +/- .01 um 
+Wavefront Generator PV = 3.542 +.001 um
+Peak intensity = 237
+
+Z8 = -1
+Shack Hartman Amplitude RMS = .652 +/- .01 um 
+Wavefront Generator RMS = 1.035  +/- .01 um 
+Shack Hartman Amplitude PV = 1.800 +/- .01 um 
+Wavefront Generator PV = 3.542 +.001 um
+Peak intensity = 240
+
+Z9 = 1
+Shack Hartman Amplitude RMS = .410 +/- .01 um 
+Wavefront Generator RMS = .417  +/- .01 um 
+Shack Hartman Amplitude PV = .504 +/- .01 um 
+Wavefront Generator PV = 2.759 +.001 um
+Peak intensity = 240
+
+Z9 = -1
+Shack Hartman Amplitude RMS = .396 +/- .01 um 
+Wavefront Generator RMS = .417  +/- .01 um 
+Shack Hartman Amplitude PV = .521 +/- .01 um 
+Wavefront Generator PV = 2.759 +.001 um
+Peak intensity = 237
+
+Z10 = 1
+Shack Hartman Amplitude RMS = .394 +/- .01 um 
+Wavefront Generator RMS = .414  +/- .01 um 
+Shack Hartman Amplitude PV = .517 +/- .01 um 
+Wavefront Generator PV = 2.626 +.001 um
+Peak intensity = 237
+
+Z10 = -1
+Shack Hartman Amplitude RMS = .401 +/- .01 um 
+Wavefront Generator RMS = .414  +/- .01 um 
+Shack Hartman Amplitude PV = .521 +/- .01 um 
+Wavefront Generator PV = 2.626 +.001 um
+Peak intensity = 239
+
+Z11 = 1
+Shack Hartman Amplitude RMS = 1.090 +/- .01 um 
+Wavefront Generator RMS = .990  +/- .01 um 
+Shack Hartman Amplitude PV = .505 +/- .01 um 
+Wavefront Generator PV = 3.342 +.001 um
+Peak intensity = 239
+
+Z11 = -1
+Shack Hartman Amplitude RMS = .895 +/- .01 um 
+Wavefront Generator RMS = .990  +/- .01 um 
+Shack Hartman Amplitude PV = .563 +/- .01 um 
+Wavefront Generator PV = 3.342 +.001 um
+Peak intensity = 240
+
+Z12 = 1
+Shack Hartman Amplitude RMS = .927 +/- .01 um 
+Wavefront Generator RMS = .893  +/- .01 um 
+Shack Hartman Amplitude PV = .522 +/- .01 um 
+Wavefront Generator PV = 3.546 +.001 um
+Peak intensity = 240
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
