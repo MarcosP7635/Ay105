@@ -1,0 +1,112 @@
+filter was added, coronagraph now off-axis s.t. we can view the aberrations
+
+it appears as though our psf shows some coma
+
+original intensity: 208 peak or so.
+
+introducing z2 = 1, we see the psf decrease in intensity to 200 or so
+
+z8 =1 shows peak of 201, maybe too high of a correction
+z8 = z2 = 1 shows 200
+
+z8 = 0.5 shows 194
+
+z7 = 0.25, z8 = 0.5 shows 194
+
+sanity check of zn = 0 shows peak of 202, so maybe z8 = 1 was closer.
+
+z8 = z5 = 1 shows 202
+
+z8 = -1, z5 = 1 shows 202
+
+z8 = z5 = -1 shows 200
+
+z2 = z5 = z8 = -1 shows 202
+
+z2 = -1 shows 201
+
+z11 = 1 same as z11 = 0
+
+z2 = z5 = -1, z3 = 1 shows 202
+
+z4 = 1 shows 202
+
+z16 = 1 or -1 shows 202
+
+z10 = 1 shows 203 [improvement]
+
+z8 = -1, z10 = 1 shows 204 [improvement]
+
+
+THURSDAY:
+Part IV today
+
+Laser power at 7.04, peak of 185 w/ zn = 0
+Amplitude RMS: 0.118 micrometers pm 0.002
+Amp P-V = 0.51 pm 0.2
+
+z2 = 1, 186
+RMS = 0.116 pm 0.002
+P-V = 2.65 pm 0.02
+DM:
+RMS = 0.728
+P-V = 2.4
+
+z2 = -1, 185
+RMS = 0.118 pm 0.002
+P-V = 2.48 pm 0.02
+DM:
+RMS = 0.728
+P-V = 2.4
+
+z3 = 1, 186
+RMS = 0.117 pm 0.003
+P-V = 2.58 pm 0.02
+DM:
+RMS = 0.727
+P-V = 2.4
+
+z3 = -1, 186
+RMS = 0.117 pm 0.002
+P-V = 2.65 pjm 0.02
+DM:
+RMS = 0.727
+P-V = 2.4
+
+z4 = 1, 187
+RMS = 0.451 pm 0.001
+P-V = 0.62 pm 0.01
+DM:
+RMS = 0.999
+P-V = 2.663
+
+z4 = -1, 187
+RMS = 0.667 pm 0.001
+P-V = 0.60 pm 0.01
+DM:
+RMS = 1.001
+P-V = 2.663
+
+z5 = 1, 187
+RMS = 0.637 pm 0.001
+P-V = 0.53 pm 0.02
+DM:
+RMS = 0.649
+P-V = 3.677
+
+z5 = -1, 187
+RMS = 0.635 pm 0.002
+P-V = 0.56 pm 0.01
+DM:
+RMS = 0.649
+P-V = 3.677
+
+neutral density filter changed for all zernike polys after z5
+
+z6 = z7 = 1
+RMS = 0.750
+P-V = 
+DM:
+RMS = 
+P-V = 
+
