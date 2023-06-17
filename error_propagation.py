@@ -70,9 +70,10 @@ def general (dict, fun):
             f = fun.diff(symbol_list[index])
             lam_f = lambdify(symbol_list[0:len(keys)], f)
             sum_squares += (lam_f(*keys) * values[index]) ** 2
+            print(sum_squares)
         lam_og = lambdify(symbol_list[0:len(keys)], fun)
         best_est = lam_og(*keys)
-        print(sympy.N(fun))
+        print(fun)
 
     except:
         print("Singular uncertainty entered")
