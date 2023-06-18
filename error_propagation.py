@@ -57,6 +57,7 @@ def power (dict, exponent):
     best_est = np.power(keys, exponent)
     uncertainty = np.abs(best_est) * exponent * values / np.abs(keys)
     return ("best estimate(s): ", best_est, "\n uncertainties: ", uncertainty)
+
 def general_with_arrays(expectation_values, uncertainties, fun, print_fun=False):
     #can only take up to 26 inputs, but allows different inputs to have the same expectation value
     #its output is of the form (exact uncertainty, maximum uncertainty)
