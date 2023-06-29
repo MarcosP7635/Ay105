@@ -13,6 +13,10 @@ A long exposure to measure the variations in pixel to pixel sensitivity. Typical
 dark (slide 67)
 Exposures with the same duration as the science frame.
 
+watch a < 20 minute youtube video on docker
+make a colab notebook that pulls the data from github and has a bash cell to handle the packages
+make a virtual machine from the ubuntu I am using to do this assignment. 
+
 
 
 
