@@ -1,0 +1,17 @@
+All of the fixes I've had to do:
+
+https://stackoverflow.com/questions/3160909/how-do-i-deal-with-certificates-using-curl-while-trying-to-access-an-https-url
+
+remember the procedure is (science - dark) / (flat - bias)
+
+bias (slide 65)
+An exposure of zero duration with the shutter closed. Removes the DC bias introduced to account for variation in read noise.
+
+flat (slide 66)
+A long exposure to measure the variations in pixel to pixel sensitivity. Typically the twilight sky or the inside of the dome.
+
+dark (slide 67)
+Exposures with the same duration as the science frame.
+
+
+
