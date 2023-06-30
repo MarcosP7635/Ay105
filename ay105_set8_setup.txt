@@ -17,6 +17,8 @@ watch a < 20 minute youtube video on docker
 make a colab notebook that pulls the data from github and has a bash cell to handle the packages
 make a virtual machine from the ubuntu I am using to do this assignment. 
 
+How do I convert pixel value to flux? There does not appear to be any filtering of light from the star, so we can find 
+the ratio of the brightness of the star to the brightness of the planet, and simply find a reference for the star's brightness. The star is 2MASSWJ 1207334-393254
 
 
 
